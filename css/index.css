@@ -1,0 +1,148 @@
+section{
+    height:600px;
+    width:100%;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.header{
+    background-color: #00ffff55;
+    position:fixed;
+    width:100%;
+}
+.header>nav{
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+}
+.header>nav>.navlist>ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.header>nav>.navlist>ul>li{
+    display:inline-block;
+    margin-top:20px;
+    padding:0 20px;
+}
+.section1{
+    background-color: skyblue;
+    background-image: url(/image/balloons.jpg);
+}
+.section1>div{
+text-align:right;
+    color:white;
+    padding:250px 20px 20px 20px;
+}
+.section2{
+    background-color: bisque;
+    text-align:center;
+    padding:50px 0;
+}
+.section2>table{
+    margin:auto;
+    border-collapse:collapse
+}
+.section2>table tr>td{
+    padding:5px 10px;
+}
+.section2>table tr>td:first-child{
+    border-right:blue 2px solid;
+    font-weight:bold;
+}
+.section3{
+    background-color: violet;
+}
+.section3>.gallery{
+    display:flex;
+    justify-content: space-evenly;
+}
+.section3 .phototitle{
+    display:flex;
+    justify-content: space-between;
+    margin-right:10px;
+}
+
+.section3 .photobox{
+    width:300px;
+    height:400px;
+    background-color: aqua;
+    text-align:center;
+    border-radius: 20px;
+}
+.section3 .photobox>.imagebox{
+    margin:auto;
+    margin-top:25px;
+    width:200px;
+    height:200px;
+    overflow:hidden;
+}
+.section3 .photobox:nth-child(1)>.imagebox>.photozone{
+    display:inline-block;
+    background-image: url(/image/balloons.jpg);
+    width:200px;
+    height:200px;
+    background-size: cover;
+    overflow:hidden;
+}
+.section3 .photobox:nth-child(2)>.imagebox>.photozone{
+    display:inline-block;
+    background-image: url(/image/hd.jpg);
+    width:200px;
+    height:200px;
+    background-size: cover;
+    overflow:hidden;
+}
+.section3 .photobox:nth-child(3)>.imagebox>.photozone{
+    display:inline-block;
+    background-image: url(/image/hot.jpg);
+    width:200px;
+    height:200px;
+    background-size: cover;
+    overflow:hidden;
+}
+.section3 .photobox>.imagebox:hover>.photozone{
+    transform:scale(1.2);
+    transition:all 0.5s;
+}
+.section4{
+    background-color: greenyellow;
+}
+.section4>table{
+    margin:auto;
+    height:150px;
+    border-top:3px black solid;
+    width:80%;
+    border-collapse: collapse;
+    margin-top:100px;
+}
+.section4>table tr>td:first-child{
+    padding-right:50px;
+}
+.section4>table tr>td{
+    border-bottom: 3px black solid;
+}
+.section4>table tr:hover>td:last-child{
+    color:pink;
+}
+.footer{
+    background-color: bisque;
+    height:100px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.footer>.logo{
+    background-image: url(/image/house-solid.svg);
+    width:50px;
+    height:40px;
+    background-size: cover;
+}
+.footer>.list>p{
+    float:left;
+    padding-right:30px;
+}
+.footer>.list>p:last-child{
+    clear:both;
+}
