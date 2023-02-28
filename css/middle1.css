@@ -1,0 +1,40 @@
+h3{
+    font-size:1.5rem;
+}
+.mapmain>.mapsection{
+    width:100%;
+    height:95vh;
+    background-color: aquamarine;
+}
+.mapmain>.mapsection>iframe{
+    margin-top:75px;
+    float:left;
+}
+.mapmain>.mapsection>.cometo{
+    float:left;
+    margin-left:50px;
+}
+.mapmain>.mapsection>.cometo>h1{
+    padding-top:75px;
+}
+.mapmain>.mapsection>.cometo>table{
+    width:500px;
+    height:100px;
+    text-align:center;
+}
+.mapmain>.mapsection>.cometo>table tr>td{
+    
+}
+.mapmain>.mapsection>.cometo>table tr:first-child{
+    background-color:gray;
+}
+.mapmain>.mapsection>.cometo>table tr>td:nth-child(n){
+    border-right:2px black solid;
+    border-bottom:2px black solid;
+}
+.mapmain>.mapsection>.cometo>table tr:first-child{
+    border-top:5px black solid;
+}
+.mapmain>.mapsection>.cometo>table tr>td:last-child{
+    border-right:none;
+}

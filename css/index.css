@@ -6,10 +6,15 @@ a{
     text-decoration: none;
     color:black;
 }
+h1{
+    font-size:2rem;
+    margin:15px;
+}
 .header{
     background-color: #00ffff55;
     position:fixed;
     width:100%;
+    height:75px;
 }
 .header>nav{
     display:flex;

@@ -1,0 +1,15 @@
+.informain>.inforsection>form{
+    padding-top:75px;
+    text-align:center;
+}
+.informain>.inforsection>form>.name>span,
+.informain>.inforsection>form>.number>span{
+    display:inline-block;
+    width:80px;
+}
+.informain>.inforsection>form input[type="text"]{
+    width:250px;
+}
+.informain>.inforsection>form>textarea{
+    width:340px;
+}
