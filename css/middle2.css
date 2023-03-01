@@ -1,6 +1,9 @@
 .informain>.inforsection>form{
-    padding-top:75px;
+    padding-top:100px;
     text-align:center;
+}
+.informain>.inforsection>form>div{
+    margin:15px;
 }
 .informain>.inforsection>form>.name>span,
 .informain>.inforsection>form>.number>span{
@@ -12,4 +15,10 @@
 }
 .informain>.inforsection>form>textarea{
     width:340px;
+}
+.informain>.inforsection>form>.qnacheck{
+    display:flex;
+    justify-content:space-evenly;
+    margin:auto;
+    width:500px;
 }
