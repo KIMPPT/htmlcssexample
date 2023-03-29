@@ -33,7 +33,7 @@ h1{
 }
 .section1{
     background-color: skyblue;
-    background-image: url(/image/balloons.jpg);
+    background-image: url(../image/balloons.jpg);
 }
 .section1>div{
 text-align:right;
